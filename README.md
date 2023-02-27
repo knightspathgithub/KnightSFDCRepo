@@ -1,18 +1,20 @@
-# Salesforce DX Project: Next Steps
+Decisions:
+---------
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+1. We are using Text Area fields to capture the input and to dispaly the output.
 
-## How Do You Plan to Deploy Your Changes?
+Assumptions:
+------------
+1. Assuming the Size of the Board is 8x8
+2. Each input line should be in proper start possition and target possition.
+3. In case if we enter the input improperly then we will see below error message on page.
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+Error:
+Please enter valid input lines in the below format \
+D4 G7\
+D4 D5
 
-## Configure Your Salesforce DX Project
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+Instructions to install and execute the program:
+------------------------------------------------
+Please refer instructions.docx document for steps and screenshots.
