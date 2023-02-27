@@ -1,0 +1,22 @@
+<apex:page controller="KnightsShortestPathController">
+  <apex:form >
+      <apex:pageBlock >
+          <apex:pageMessages escape="false"></apex:pageMessages>
+          <apex:pageBlockSection title="Knight's Shortest Path" columns="6">
+              <apex:pageBlockSectionItem >
+                  Enter input positions: <apex:inputTextarea id="inputPositions" value="{!inputPositions}"/>
+              </apex:pageBlockSectionItem>
+              
+              <apex:pageBlockSectionItem >
+                  <apex:commandButton value="Find Shortest Path" action="{!getShortestPath}"/>
+              </apex:pageBlockSectionItem>
+              
+              <apex:pageBlockSectionItem >
+                  Shortest paths are:  <apex:inputTextarea id="outputPositions" value="{!outputPositions}"/>
+              </apex:pageBlockSectionItem>
+         
+         </apex:pageBlockSection>
+       </apex:pageBlock>
+  </apex:form>
+  
+</apex:page>

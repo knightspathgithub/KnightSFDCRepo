@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#EAAC22</headerColor>
+        <logo>knightmoves1</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Knight&apos;s Moves</label>
+    <navType>Standard</navType>
+    <tabs>KnightsShortestPathTab</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Knight_s_Moves_UtilityBar</utilityBar>
+</CustomApplication>
